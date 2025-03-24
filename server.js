@@ -72,7 +72,7 @@ app.use("/api-doc", swaggerUi.serve, swaggerUi.setup(spec));
 app.use(errroMiddelware);
 
 //port
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 5000;
 //listen
 app.listen(PORT, () => {
   console.log(
